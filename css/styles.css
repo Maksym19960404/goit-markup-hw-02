@@ -1,0 +1,37 @@
+/* accent-color color: #2196F3;*/
+/*title-color color: #212121;*/
+/*text-color color: #757575;*/
+
+.underline{
+    text-decoration: none;
+        }
+
+.logo{
+}
+
+.nav-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.nav-link:focus,
+.nav-link:hover{
+    color: #2196F3;
+}
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
