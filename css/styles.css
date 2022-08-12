@@ -1,9 +1,14 @@
-/* accent-color color: #2196F3;*/
-/*title-color color: #212121;*/
-/*text-color color: #757575;*/
+:root {
+    --accent-text-color: #2196F3;
+    --primary-text-color: #000000;
+    --primary-white-color: #FFFFFF;
+    --title-text-color: #212121;
+    --primary-gray-color: #757575;
+}
+
 .body{
     font-family: 'Roboto';
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .underline{
@@ -19,76 +24,38 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.20;
 letter-spacing: 0.03em;
-color: #2196F3; 
+color: var(--accent-text-color); 
 }
 
 .black-logo{
-    color: #000000;
+    color: var(--primary-text-color);
 }
 
-.nav-link{
+
+.site-nav .link{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-text-color);
 }
 
-.nav-link:focus,
-.nav-link:hover{
-    color: #2196F3;
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-text-color);
 }
 
-.social-links{
+.social-links {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+cursor: pointer;
+color: var(--primary-gray-color);
+
 }
 
-.social-links:focus,
-.social-links:hover{
-    color: #2196F3;
+.social-links:hover,
+.social-links:focus{
+    color: var(--accent-text-color);
 }
-
-.section-background{
-background: #2F303A;
-}
-
-.title{
-    
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    }
-
-.order-button{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 2;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    
-}
-.order-button:focus,
-.order-button:hover{
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: #FFFFFF;
-}  
-
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
