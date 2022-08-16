@@ -18,6 +18,21 @@
 .style{
     list-style: none;
 }
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
  /*---------ШАПКА ПРОФІЛЯ--------*/
 .logo{
 font-family: 'Raleway';
@@ -126,7 +141,7 @@ letter-spacing: 0.03em;
 }
 
 .staff{
-
+    background: #F5F4FA;
 }
 
 .staff .list{
@@ -206,6 +221,8 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
+border-style: none;
+border-radius: 4px;
 }
 
 .button-text:hover,
@@ -245,3 +262,5 @@ color: var(--title-text-color);
     letter-spacing: 0.03em;
     color: var(--primary-gray-color);
 }
+
+
