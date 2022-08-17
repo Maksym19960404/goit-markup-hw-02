@@ -63,7 +63,8 @@
 .site-nav-link:focus {
   color: var(--accent-text-color);
 }
-.color:visited {
+
+.current {
   color: var(--accent-text-color);
 }
 
